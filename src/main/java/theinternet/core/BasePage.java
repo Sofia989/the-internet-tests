@@ -14,6 +14,8 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BasePage {
 
@@ -61,8 +63,15 @@ public class BasePage {
                 .until(ExpectedConditions.textToBePresentInElement(element,text));
     }
 
+    public void switchToNewWindow(int index) {
+        List<String> tabs=new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(index));
 
     }
+
+
+
+}
 
 
 

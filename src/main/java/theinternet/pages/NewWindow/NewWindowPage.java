@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import theinternet.core.BasePage;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class NewWindowPage extends BasePage {
     public NewWindowPage(WebDriver driver) {
         super(driver);
@@ -17,8 +20,10 @@ public class NewWindowPage extends BasePage {
 
     public NewWindowPage switchToNewTab(int index) {
         click(clickLink);
+        switchToNewWindow(index);
         return this;
     }
+
 
 
     @FindBy(xpath = "//div[@class='example']/h3")

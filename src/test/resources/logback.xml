@@ -1,17 +1,3 @@
-<!--<configuration>-->
-
-<!--  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
-<!--    &lt;!&ndash; encoders are assigned the type-->
-<!--         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default &ndash;&gt;-->
-<!--    <encoder>-->
-<!--      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp- %msg%n</pattern>-->
-<!--    </encoder>-->
-<!--  </appender>-->
-
-<!--  <root level="info">-->
-<!--    <appender-ref ref="STDOUT" />-->
-<!--  </root>-->
-<!--</configuration>-->
 <configuration>
     <!-- Главный блок настроек Logback -->
     <timestamp key="bySecond" datePattern="dd'T'HHmmss"/>
@@ -31,35 +17,36 @@
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %class.%method - %msg%n</pattern>
         </encoder>
     </appender>
-
-    <!-- Настройка вывода в файл -->
-    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <!-- Путь к файлу лога; ${bySecond} - подстановка даты и времени -->
-        <file>src/test_logs/log-${bySecond}.log</file>
-        <!-- Продолжать записывать в тот же файл, не перезаписывать -->
-        <append>true</append>
-        <!-- Немедленная запись в файл без буферизации -->
-        <immediateFlush>true</immediateFlush>
+    <!-- Настройка вывода в файл с ротацией и хранением только 10 файлов -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Путь к текущему файлу лога -->
+        <file>src/test_logs/log-current.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- Паттерн имени для архивных файлов -->
+            <fileNamePattern>src/test_logs/log-%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <!-- Размер файла для ротации -->
+            <maxFileSize>5MB</maxFileSize>
+        </triggeringPolicy>
         <encoder>
             <!-- Определяем формат одной строки лога -->
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} -%kvp- %msg%n</pattern>
         </encoder>
     </appender>
-
     <!-- Локальное повышение уровня логов для класса org.testng.internal.Utils, чтобы не выводить INFO -->
     <logger name="org.testng.internal.Utils" level="WARN"/>
-
     <!-- ! <root level="debug">&ndash;&gt; Меняем уровень логирования на INFO-->
     <root level="info">
         <!--        DEBUG - Отладочные сообщения, используемые для диагностики.-->
         <!--        INFO - Информационные сообщения, описывающие нормальную работу.-->
         <!--        WARN - Предупреждения о потенциальных проблемах.-->
         <!--        ERROR - Ошибки, которые требуют немедленного внимания.        -->
-
         <!-- Подключаем вывод в консоль -->
         <appender-ref ref="STDOUT" />
-
-        <!-- Подключаем вывод в файл -->
-        <appender-ref ref="FILE" />
+        <!-- Подключаем вывод в файл с ротацией -->
+        <appender-ref ref="ROLLING" />
     </root>
 </configuration>
