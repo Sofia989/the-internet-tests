@@ -2,6 +2,7 @@ package theinternet;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.JavascriptExecutor;
 import theinternet.core.TestBase;
 import theinternet.pages.Frames.FramesNestedPages;
 import theinternet.pages.javaScriptAlerts.HomePage;
@@ -17,6 +18,7 @@ public class FramesNestedTests extends TestBase {
     }
     @Test
     public void FramesByNameTests(){
+
         framesNested.switchToFrameTop("frame-top")
                 .switchToFrameLeft("frame-left")
                 .verifyFrameText("LEFT")
@@ -30,4 +32,11 @@ public class FramesNestedTests extends TestBase {
                 .switchToFrameBottom("frame-bottom")
                 .verifyFrameText("BOTTOM");
     }
-}
+    @Test
+    public void ListOfFramesTests(){
+        int frames = new FramesNestedPages(driver).getNumberOfFrames();
+        System.out.println("Количество фреймов на странице: " + frames);
+    }
+
+    }
+

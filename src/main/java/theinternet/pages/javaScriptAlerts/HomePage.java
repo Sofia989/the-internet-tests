@@ -7,6 +7,8 @@ import theinternet.core.BasePage;
 import theinternet.pages.Frames.FramesNestedPages;
 import theinternet.pages.NewWindow.NewWindowPage;
 import theinternet.pages.Select.SelectMenuPage;
+import theinternet.pages.interactions.DragAndDropPage;
+import theinternet.pages.interactions.SliderPage;
 
 public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
@@ -47,6 +49,23 @@ public class HomePage extends BasePage {
         click(framesLink);
         return new FramesNestedPages(driver);
 
+    }
+
+
+    @FindBy(linkText = "Drag and Drop")
+    WebElement dragAndDropLink;
+    public DragAndDropPage selectDragAndDrop() {
+        click(dragAndDropLink);
+
+        return new DragAndDropPage(driver);
+    }
+
+    @FindBy(xpath = "//a[text()='Horizontal Slider']")
+    WebElement sliderLink;
+
+    public SliderPage selectHorizontalSliderlink() {
+        click(sliderLink);
+        return new SliderPage(driver);
     }
 }
 

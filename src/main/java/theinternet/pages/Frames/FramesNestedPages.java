@@ -1,6 +1,7 @@
 package theinternet.pages.Frames;
 
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -80,4 +81,9 @@ public class FramesNestedPages extends BasePage {
 
         return this;
     }
+    public int getNumberOfFrames() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        return ((Long) js.executeScript("return window.length")).intValue();
+    }
+
 }
