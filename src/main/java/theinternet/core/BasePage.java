@@ -12,6 +12,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,17 +24,18 @@ public class BasePage {
 
     Logger logger = LoggerFactory.getLogger(BasePage.class);
 
-    JavascriptExecutor js;
+    public static JavascriptExecutor js;
     public static Actions actions;
     public static SoftAssertions softly;
-
 
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        actions =new Actions(driver);
-        softly=new SoftAssertions();
+        actions = new Actions(driver);
+        softly = new SoftAssertions();
+        js = (JavascriptExecutor) driver;
+
 
     }
 
@@ -47,31 +50,21 @@ public class BasePage {
             element.sendKeys(text);
         }
     }
-//        public String takeScreenShot() {
-//            File screenshotDir = new File(System.getProperty("user.dir") + "/src/screenshot");
-//            if(!screenshotDir.exists()){
-//                screenshotDir.mkdirs();
-//            }
-//            File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//            File screenshot = new File(screenshotDir+"/screen-" + System.currentTimeMillis() + ".png");
-//
-//            try {
-//                Files.copy(tmp, screenshot);
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }
-//            logger.info("Скриншот сохранен в: "+screenshot.getAbsolutePath());
-//            return screenshot.getAbsolutePath();
-//        }
 
     public String takeScreenShot() {
+        File screenshotDir = new File(System.getProperty("user.dir") + "/src/screenshot");
+        if (!screenshotDir.exists()) {
+            screenshotDir.mkdirs();
+        }
         File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File screenshot = new File(System.getProperty("user.dir") + "/src/screenshot/screen-" + System.currentTimeMillis() + ".png");
+        File screenshot = new File(screenshotDir + "/screen-" + System.currentTimeMillis() + ".png");
+
         try {
             Files.copy(tmp, screenshot);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        logger.info("Скриншот сохранен в: " + screenshot.getAbsolutePath());
         return screenshot.getAbsolutePath();
     }
 
@@ -89,6 +82,7 @@ public class BasePage {
         driver.switchTo().window(tabs.get(index));
 
     }
+
     public void pause(int millis) {
         try {
             Thread.sleep(millis);
@@ -96,8 +90,29 @@ public class BasePage {
             throw new RuntimeException(e);
 
         }
+    }
 
-    }}
+    public void verifyLinks(String url) {
+
+        try {
+            URL linkUrl = new URL(url);
+            //create URL connection and get response code
+            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
+            connection.setConnectTimeout(5000);
+            connection.connect();
+            if (connection.getResponseCode() >= 400) {
+                //  System.out.println(url+"-"+connection.getResponseMessage()+"is a broken link");
+                softly.fail(url + "-" + connection.getResponseMessage() + "is a broken link");
+            } else {
+                // System.out.println(url+"-"+connection.getResponseMessage());
+                softly.assertThat(connection.getResponseCode()).isLessThan(400);
+            }
+        } catch (Exception e) {
+            System.out.println(url + "-" + e.getMessage() + "ERROR occurred");
+        }
+        //softly.assertAll();
+    }
+}
 
 
 

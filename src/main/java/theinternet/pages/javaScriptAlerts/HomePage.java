@@ -1,5 +1,6 @@
 package theinternet.pages.javaScriptAlerts;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import theinternet.pages.NewWindow.NewWindowPage;
 import theinternet.pages.Select.SelectMenuPage;
 import theinternet.pages.interactions.DragAndDropPage;
 import theinternet.pages.interactions.SliderPage;
+import theinternet.pages.links.ImagesPage;
 
 public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
@@ -66,6 +68,15 @@ public class HomePage extends BasePage {
     public SliderPage selectHorizontalSliderlink() {
         click(sliderLink);
         return new SliderPage(driver);
+    }
+
+
+    @FindBy(linkText="Broken Images")
+    WebElement brokenImages;
+
+    public ImagesPage selectBrokenImagesLink() {
+        click(brokenImages);
+        return new ImagesPage(driver);
     }
 }
 

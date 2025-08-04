@@ -29,9 +29,12 @@ public class DragAndDropTests extends TestBase {
 
     @Test
     public void dragBoxToBoxTestWithSoftly() {
-        dragAndDrop.actionMoveBox()
+        dragAndDrop.actionDragMeBy()
                 .verifyisBoxANowAtBoxBPositionWithSoftly();
 
     }
+
+
 }
+
 

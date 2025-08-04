@@ -19,7 +19,11 @@ public class TestResultLogger implements TestWatcher {
         if (instance instanceof TestBase) {
             ((TestBase) instance).testPassed = false;
         }
-        logger.warn("Test failed: " + context.getDisplayName());
+
+        TestBase testBase = (TestBase) instance;
+//        TestBase testBase=new TestBase();
+        BasePage basePage = new BasePage(testBase.driver);
+        logger.warn("Test failed: " + context.getDisplayName() + ", screenshot: " +basePage.takeScreenShot());
     }
 }
 

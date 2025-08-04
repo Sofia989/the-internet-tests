@@ -12,20 +12,21 @@ public class DragAndDropPage extends BasePage {
     }
 
 
-    @FindBy(id="column-a")
+    @FindBy(id = "column-a")
     WebElement boxA;
 
-    @FindBy(id="column-b")
+    @FindBy(id = "column-b")
     WebElement boxB;
+
     public DragAndDropPage actionMoveBox() {
         pause(1000);
-        actions.dragAndDrop(boxA,boxB).perform();
+        actions.dragAndDrop(boxA, boxB).perform();
 
         return this;
     }
 
     public DragAndDropPage verifyisBoxANowAtBoxBPosition(String text) {
-        Assertions.assertTrue(shouldHaveText(boxB,text,5));
+        Assertions.assertTrue(shouldHaveText(boxB, text, 5));
         return this;
     }
 
@@ -35,4 +36,21 @@ public class DragAndDropPage extends BasePage {
         softly.assertAll();
         return this;
     }
-}
+
+    public DragAndDropPage actionDragMeBy() {
+        pause(1000);
+        int xOffset1 = boxA.getLocation().getX();
+        int yOffset1 = boxA.getLocation().getY();
+        System.out.println("xOffset1" + xOffset1 + " yOffset1" + yOffset1);
+
+        int xOffset = boxB.getLocation().getX();
+        int yOffset = boxB.getLocation().getY();
+        System.out.println("xOffset" + xOffset + " yOffset" + yOffset);
+        return this;
+//
+//        xOffset=(xOffset-xOffset1)+20;
+//        yOffset=(yOffset-yOffset1)+40;
+//        actions.dragAndDropBy(boxA,xOffset,yOffset).perform();
+//
+//
+    }}
