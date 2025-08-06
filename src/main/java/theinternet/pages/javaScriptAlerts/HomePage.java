@@ -8,6 +8,7 @@ import theinternet.core.BasePage;
 import theinternet.pages.Frames.FramesNestedPages;
 import theinternet.pages.NewWindow.NewWindowPage;
 import theinternet.pages.Select.SelectMenuPage;
+import theinternet.pages.UploadFilePage;
 import theinternet.pages.interactions.DragAndDropPage;
 import theinternet.pages.interactions.SliderPage;
 import theinternet.pages.links.ImagesPage;
@@ -77,6 +78,13 @@ public class HomePage extends BasePage {
     public ImagesPage selectBrokenImagesLink() {
         click(brokenImages);
         return new ImagesPage(driver);
+    }
+
+    @FindBy(css="a[href='/upload']")
+    WebElement uploadLink;
+    public UploadFilePage selectUploadFile() {
+        click(uploadLink);
+        return new UploadFilePage(driver);
     }
 }
 
