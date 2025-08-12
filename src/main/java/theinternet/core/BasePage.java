@@ -67,14 +67,14 @@ public class BasePage {
         logger.info("Скриншот сохранен в: " + screenshot.getAbsolutePath());
         return screenshot.getAbsolutePath();
     }
-
+//
     public WebDriverWait getWebDriverWait(int time) {
         return new WebDriverWait(driver, Duration.ofSeconds(time));
     }
 
-    public boolean shouldHaveText(WebElement element, String text, int time) {
-        return getWebDriverWait(time)
-                .until(ExpectedConditions.textToBePresentInElement(element, text));
+   public boolean shouldHaveText(WebElement element, String text, int time) {
+       return getWebDriverWait(time)
+              .until(ExpectedConditions.textToBePresentInElement(element, text));
     }
 
     public void switchToNewWindow(int index) {

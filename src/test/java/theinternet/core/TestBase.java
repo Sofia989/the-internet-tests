@@ -1,21 +1,24 @@
 package theinternet.core;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.time.Duration;
+import static theinternet.core.ApplicationManager.stopDriver;
 
 @ExtendWith(TestResultLogger.class)
 public class TestBase {
-    protected WebDriver driver;
+
+    protected ApplicationManager app = new ApplicationManager(System.getProperty("browser", "chrome"));
+    protected static WebDriver driver;
+
     Logger logger = LoggerFactory.getLogger(TestBase.class);
-    public boolean testPassed=true;
+    public boolean testPassed = true;
 //
 //    @BeforeEach
 //    void startTest(TestInfo info) {
@@ -28,38 +31,26 @@ public class TestBase {
 //    }
 
 
-
     @BeforeEach
     public void init() {
-        driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver = app.startTest();
         // logger.info("Start test {} with data:{}", method.getName(), Arrays.asList(p));
     }
 
     @BeforeEach
-    public void startTest(TestInfo testInfo){
-        logger.info("Start test{} with data:{}",testInfo.getDisplayName());
+    public void startTest(TestInfo testInfo) {
+        logger.info("Start test{} with data:{}", testInfo.getDisplayName());
     }
-    @AfterEach
-    public void stopTest(){
 
+    @AfterEach
+    public void stopTest() {
 
         logger.info("Stop test");
         logger.info("==================================================");
     }
+
+    @AfterAll
+    public static void tearDown() {
+        stopDriver();
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
