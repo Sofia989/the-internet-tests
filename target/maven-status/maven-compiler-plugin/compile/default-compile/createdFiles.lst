@@ -1,0 +1,12 @@
+theinternet\pages\interactions\DragAndDropPage.class
+theinternet\pages\NewWindow\NewWindowPage.class
+theinternet\utils\MyListener.class
+theinternet\core\BasePage.class
+theinternet\pages\javaScriptAlerts\AlertsPage.class
+theinternet\core\ApplicationManager.class
+theinternet\pages\Frames\FramesNestedPages.class
+theinternet\pages\links\ImagesPage.class
+theinternet\pages\Select\SelectMenuPage.class
+theinternet\pages\interactions\SliderPage.class
+theinternet\pages\UploadFilePage.class
+theinternet\pages\javaScriptAlerts\HomePage.class

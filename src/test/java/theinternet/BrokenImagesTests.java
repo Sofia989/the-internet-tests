@@ -13,9 +13,9 @@ public class BrokenImagesTests extends TestBase {
     HomePage homePage;
     ImagesPage images;
     @Test
-    public void checkBrokenImagesTest(){
-        homePage=new HomePage(driver);
-        images =new ImagesPage(driver);
+    public void checkBrokenImagesTest() {
+        homePage = new HomePage(driver);
+        images = new ImagesPage(driver);
         homePage.selectBrokenImagesLink();
         images.checkBrokenImages();
 

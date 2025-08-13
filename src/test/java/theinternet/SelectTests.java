@@ -17,7 +17,6 @@ public class SelectTests extends TestBase {
     new HomePage(driver).selectDropdownLink();
     }
 
-
     @Test
     public void dropDownList(){
         selectMenu.dropDownSelect("Option 2")

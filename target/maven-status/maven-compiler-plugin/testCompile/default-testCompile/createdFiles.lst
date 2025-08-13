@@ -1,0 +1,10 @@
+theinternet\BrokenImagesTests.class
+theinternet\core\TestBase.class
+theinternet\FramesNestedTests.class
+theinternet\JavaScriptAlertsTests.class
+theinternet\SelectTests.class
+theinternet\WindowsTabTests.class
+theinternet\core\TestResultLogger.class
+theinternet\DragAndDropTests.class
+theinternet\SliderTests.class
+theinternet\UploadFileTests.class

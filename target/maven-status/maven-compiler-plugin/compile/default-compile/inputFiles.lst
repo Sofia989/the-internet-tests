@@ -1,0 +1,12 @@
+C:\QA\The-Internet\src\main\java\theinternet\core\ApplicationManager.java
+C:\QA\The-Internet\src\main\java\theinternet\core\BasePage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\Frames\FramesNestedPages.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\interactions\DragAndDropPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\interactions\SliderPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\javaScriptAlerts\AlertsPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\javaScriptAlerts\HomePage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\links\ImagesPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\NewWindow\NewWindowPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\Select\SelectMenuPage.java
+C:\QA\The-Internet\src\main\java\theinternet\pages\UploadFilePage.java
+C:\QA\The-Internet\src\main\java\theinternet\utils\MyListener.java

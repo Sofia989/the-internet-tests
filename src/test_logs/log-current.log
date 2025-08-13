@@ -1,0 +1,495 @@
+19:57:41.193 [main] INFO  theinternet.core.TestBase -- Start testVerify to -'Ok' is displayed with data:{}
+19:57:45.239 [main] INFO  theinternet.core.TestBase -- Stop test
+19:57:45.240 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:57:45.247 [main] INFO  theinternet.core.TestResultLogger -- Test passed: Verify to -'Ok' is displayed
+19:57:58.851 [main] INFO  theinternet.core.TestBase -- Start testverifyJSAlertTextAndAccept() with data:{}
+19:58:02.782 [main] INFO  theinternet.core.TestBase -- Stop test
+19:58:02.785 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:58:02.797 [main] INFO  theinternet.core.TestResultLogger -- Test passed: verifyJSAlertTextAndAccept()
+19:58:14.100 [main] INFO  theinternet.core.TestBase -- Start testverifyJSAlertTextAndAccept() with data:{}
+19:58:19.036 [main] INFO  theinternet.core.TestBase -- Stop test
+19:58:19.036 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:58:19.045 [main] INFO  theinternet.core.TestResultLogger -- Test passed: verifyJSAlertTextAndAccept()
+11:42:51.843 [main] INFO  theinternet.core.TestBase -- Start testsendMessageToAlertTest() with data:{}
+11:42:56.097 [main] INFO  theinternet.core.TestBase -- Stop test
+11:42:56.097 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:42:56.112 [main] INFO  theinternet.core.TestResultLogger -- Test passed: sendMessageToAlertTest()
+12:57:33.983 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+12:57:40.272 [main] INFO  theinternet.core.TestBase -- Stop test
+12:57:40.272 [main] INFO  theinternet.core.TestBase -- ==================================================
+12:57:40.272 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dropDownList()
+12:58:00.414 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+12:58:04.941 [main] INFO  theinternet.core.TestBase -- Stop test
+12:58:04.941 [main] INFO  theinternet.core.TestBase -- ==================================================
+12:58:04.941 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dropDownList()
+17:29:03.732 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+17:29:23.122 [main] INFO  theinternet.core.TestBase -- Stop test
+17:29:23.122 [main] INFO  theinternet.core.TestBase -- ==================================================
+17:29:23.122 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+17:29:35.206 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+17:29:38.724 [main] INFO  theinternet.core.TestBase -- Stop test
+17:29:38.725 [main] INFO  theinternet.core.TestBase -- ==================================================
+17:29:38.731 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dropDownList()
+18:33:22.419 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:33:41.007 [main] INFO  theinternet.core.TestBase -- Stop test
+18:33:41.007 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:33:41.007 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+18:34:04.598 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:34:14.722 [main] INFO  theinternet.core.TestBase -- Stop test
+18:34:14.722 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:34:14.738 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+18:36:11.800 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:36:30.243 [main] INFO  theinternet.core.TestBase -- Stop test
+18:36:30.243 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:36:30.243 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+18:47:17.031 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:47:35.852 [main] INFO  theinternet.core.TestBase -- Stop test
+18:47:35.852 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:47:35.852 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+18:53:35.543 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:53:39.146 [main] INFO  theinternet.core.TestBase -- Stop test
+18:53:39.146 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:53:39.153 [main] INFO  theinternet.core.TestResultLogger -- Test passed: FramesByNameTests()
+20:02:33.802 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+20:02:38.238 [main] INFO  theinternet.core.TestBase -- Stop test
+20:02:38.239 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:02:38.246 [main] INFO  theinternet.core.TestResultLogger -- Test passed: FramesByNameTests()
+20:05:15.046 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+20:05:18.668 [main] INFO  theinternet.core.TestBase -- Stop test
+20:05:18.669 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:05:18.678 [main] INFO  theinternet.core.TestResultLogger -- Test passed: FramesByNameTests()
+21:38:04.681 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+21:38:25.522 [main] INFO  theinternet.core.TestBase -- Stop test
+21:38:25.522 [main] INFO  theinternet.core.TestBase -- ==================================================
+21:38:25.522 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+21:45:31.907 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+21:45:50.593 [main] INFO  theinternet.core.TestBase -- Stop test
+21:45:50.593 [main] INFO  theinternet.core.TestBase -- ==================================================
+21:45:50.599 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+21:52:30.447 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+21:52:49.163 [main] INFO  theinternet.core.TestBase -- Stop test
+21:52:49.163 [main] INFO  theinternet.core.TestBase -- ==================================================
+21:52:49.170 [main] WARN  theinternet.core.TestResultLogger -- Test failed: FramesByNameTests()
+21:58:27.741 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+21:58:31.715 [main] INFO  theinternet.core.TestBase -- Stop test
+21:58:31.716 [main] INFO  theinternet.core.TestBase -- ==================================================
+21:58:31.723 [main] INFO  theinternet.core.TestResultLogger -- Test passed: FramesByNameTests()
+09:44:35.760 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+09:44:55.469 [main] INFO  theinternet.core.TestBase -- Stop test
+09:44:55.469 [main] INFO  theinternet.core.TestBase -- ==================================================
+09:44:55.469 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+09:46:06.578 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+09:46:25.547 [main] INFO  theinternet.core.TestBase -- Stop test
+09:46:25.547 [main] INFO  theinternet.core.TestBase -- ==================================================
+09:46:25.547 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+09:53:05.798 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+09:53:24.563 [main] INFO  theinternet.core.TestBase -- Stop test
+09:53:24.563 [main] INFO  theinternet.core.TestBase -- ==================================================
+09:53:24.563 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+09:56:28.398 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+09:56:47.301 [main] INFO  theinternet.core.TestBase -- Stop test
+09:56:47.301 [main] INFO  theinternet.core.TestBase -- ==================================================
+09:56:47.301 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:01:10.405 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:01:29.335 [main] INFO  theinternet.core.TestBase -- Stop test
+10:01:29.335 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:01:29.335 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:02:29.767 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:02:49.558 [main] INFO  theinternet.core.TestBase -- Stop test
+10:02:49.558 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:02:49.573 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:05:34.760 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:05:53.401 [main] INFO  theinternet.core.TestBase -- Stop test
+10:05:53.401 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:05:53.401 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:08:10.004 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:08:28.487 [main] INFO  theinternet.core.TestBase -- Stop test
+10:08:28.487 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:08:28.487 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:10:36.835 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:10:55.354 [main] INFO  theinternet.core.TestBase -- Stop test
+10:10:55.354 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:10:55.370 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:21:48.882 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:22:08.014 [main] INFO  theinternet.core.TestBase -- Stop test
+10:22:08.014 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:22:08.014 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:24:13.143 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:24:31.496 [main] INFO  theinternet.core.TestBase -- Stop test
+10:24:31.496 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:24:31.496 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:25:54.658 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:26:13.172 [main] INFO  theinternet.core.TestBase -- Stop test
+10:26:13.172 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:26:13.172 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+10:31:18.164 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:31:21.914 [main] INFO  theinternet.core.TestBase -- Stop test
+10:31:21.914 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:31:21.929 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dropDownList()
+10:31:36.403 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+10:31:54.805 [main] INFO  theinternet.core.TestBase -- Stop test
+10:31:54.805 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:31:54.820 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dropDownList()
+14:51:34.370 [main] INFO  theinternet.core.TestBase -- Start testListOfFramesTests() with data:{}
+14:51:38.920 [main] INFO  theinternet.core.TestBase -- Stop test
+14:51:38.920 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:51:38.929 [main] INFO  theinternet.core.TestResultLogger -- Test passed: ListOfFramesTests()
+15:02:46.166 [main] INFO  theinternet.core.TestBase -- Start testListOfFramesTests() with data:{}
+15:02:49.925 [main] INFO  theinternet.core.TestBase -- Stop test
+15:02:49.925 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:02:49.934 [main] INFO  theinternet.core.TestResultLogger -- Test passed: ListOfFramesTests()
+10:12:20.528 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTest() with data:{}
+10:12:25.310 [main] INFO  theinternet.core.TestBase -- Stop test
+10:12:25.310 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:12:25.327 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dragBoxToBoxTest()
+10:14:05.551 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTest() with data:{}
+10:14:08.932 [main] INFO  theinternet.core.TestBase -- Stop test
+10:14:08.932 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:14:08.932 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTest()
+11:22:34.678 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTest() with data:{}
+11:22:47.083 [main] INFO  theinternet.core.TestBase -- Stop test
+11:22:47.083 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:22:47.083 [main] WARN  theinternet.core.TestResultLogger -- Test failed: dragBoxToBoxTest()
+11:24:39.511 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTest() with data:{}
+11:24:44.258 [main] INFO  theinternet.core.TestBase -- Stop test
+11:24:44.259 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:24:44.265 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTest()
+12:09:58.906 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTestWithSoftly() with data:{}
+12:10:04.500 [main] INFO  theinternet.core.TestBase -- Stop test
+12:10:04.500 [main] INFO  theinternet.core.TestBase -- ==================================================
+12:10:04.516 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTestWithSoftly()
+13:47:47.518 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+13:48:06.647 [main] INFO  theinternet.core.TestBase -- Stop test
+13:48:06.647 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:48:06.662 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+13:48:18.981 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+13:48:24.529 [main] INFO  theinternet.core.TestBase -- Stop test
+13:48:24.529 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:48:24.545 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+13:58:29.464 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+13:58:33.387 [main] INFO  theinternet.core.TestBase -- Stop test
+13:58:33.387 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:58:33.397 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+14:01:09.250 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+14:01:13.389 [main] INFO  theinternet.core.TestBase -- Stop test
+14:01:13.389 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:01:13.389 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+14:04:36.497 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+14:04:40.314 [main] INFO  theinternet.core.TestBase -- Stop test
+14:04:40.314 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:04:40.327 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+14:49:42.448 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+14:49:47.102 [main] INFO  theinternet.core.TestBase -- Stop test
+14:49:47.102 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:49:47.116 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+15:10:59.666 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:11:03.640 [main] INFO  theinternet.core.TestBase -- Stop test
+15:11:03.640 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:11:03.646 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+15:12:06.208 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:12:11.072 [main] INFO  theinternet.core.TestBase -- Stop test
+15:12:11.072 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:12:11.079 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+15:17:38.357 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:17:43.146 [main] INFO  theinternet.core.TestBase -- Stop test
+15:17:43.146 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:17:43.151 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+15:26:29.118 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:26:34.014 [main] INFO  theinternet.core.TestBase -- Stop test
+15:26:34.014 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:26:34.018 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+15:29:46.327 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:29:51.386 [main] INFO  theinternet.core.TestBase -- Stop test
+15:29:51.386 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:29:51.386 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+15:31:51.628 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:31:56.448 [main] INFO  theinternet.core.TestBase -- Stop test
+15:31:56.448 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:31:56.453 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+15:32:28.086 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:32:33.050 [main] INFO  theinternet.core.TestBase -- Stop test
+15:32:33.050 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:32:33.052 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest()
+15:35:08.143 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+15:35:13.248 [main] INFO  theinternet.core.TestBase -- Stop test
+15:35:13.248 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:35:13.254 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+20:31:06.686 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+20:31:12.771 [main] INFO  theinternet.core.TestBase -- Stop test
+20:31:12.771 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:31:12.777 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+10:09:32.971 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTestWithSoftly() with data:{}
+10:09:45.087 [main] INFO  theinternet.core.TestBase -- Stop test
+10:09:45.087 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:09:45.087 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTestWithSoftly()
+10:10:01.478 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+10:10:06.850 [main] INFO  theinternet.core.TestBase -- Stop test
+10:10:06.851 [main] INFO  theinternet.core.TestBase -- ==================================================
+10:10:06.854 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+13:32:48.937 [main] INFO  theinternet.core.TestBase -- Start testdataOfDradAndDropMe() with data:{}
+13:32:59.849 [main] INFO  theinternet.core.TestBase -- Stop test
+13:32:59.849 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:32:59.865 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dataOfDradAndDropMe()
+13:41:17.378 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTestWithSoftly() with data:{}
+13:41:23.124 [main] INFO  theinternet.core.TestBase -- Stop test
+13:41:23.124 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:41:23.124 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTestWithSoftly()
+13:43:41.321 [main] INFO  theinternet.core.TestBase -- Start testdragBoxToBoxTestWithSoftly() with data:{}
+13:43:46.966 [main] INFO  theinternet.core.TestBase -- Stop test
+13:43:46.966 [main] INFO  theinternet.core.TestBase -- ==================================================
+13:43:46.966 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dragBoxToBoxTestWithSoftly()
+14:33:15.230 [main] INFO  theinternet.core.TestBase -- Start testcheckToBrokenImagesTest() with data:{}
+14:33:19.654 [main] INFO  theinternet.core.TestBase -- Stop test
+14:33:19.655 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:33:19.659 [main] INFO  theinternet.core.TestResultLogger -- Test passed: checkToBrokenImagesTest()
+14:40:06.850 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+14:40:10.030 [main] INFO  theinternet.core.TestBase -- Stop test
+14:40:10.030 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:40:10.030 [main] INFO  theinternet.core.TestResultLogger -- Test passed: checkBrokenImagesTest()
+15:24:59.151 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+15:25:02.573 [main] INFO  theinternet.core.TestBase -- Stop test
+15:25:02.573 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:25:02.580 [main] INFO  theinternet.core.TestResultLogger -- Test passed: checkBrokenImagesTest()
+15:26:23.240 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+15:26:32.015 [main] INFO  theinternet.core.TestBase -- Stop test
+15:26:32.015 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:26:32.015 [main] INFO  theinternet.core.TestResultLogger -- Test passed: checkBrokenImagesTest()
+15:29:50.681 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+15:29:54.369 [main] INFO  theinternet.core.TestBase -- Stop test
+15:29:54.370 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:29:54.378 [main] INFO  theinternet.core.TestResultLogger -- Test passed: checkBrokenImagesTest()
+17:22:07.588 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+17:22:13.998 [main] INFO  theinternet.core.TestBase -- Stop test
+17:22:13.998 [main] INFO  theinternet.core.TestBase -- ==================================================
+17:22:14.014 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:05:01.298 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:05:07.278 [main] INFO  theinternet.core.TestBase -- Stop test
+19:05:07.278 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:05:07.295 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:07:36.273 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:07:41.891 [main] INFO  theinternet.core.TestBase -- Stop test
+19:07:41.891 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:07:41.906 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:13:41.200 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:13:46.936 [main] INFO  theinternet.core.TestBase -- Stop test
+19:13:46.936 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:13:46.936 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:21:43.351 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:21:49.226 [main] INFO  theinternet.core.TestBase -- Stop test
+19:21:49.226 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:21:49.226 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:28:16.357 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:28:21.933 [main] INFO  theinternet.core.TestBase -- Stop test
+19:28:21.933 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:28:21.949 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:33:46.731 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:33:52.283 [main] INFO  theinternet.core.TestBase -- Stop test
+19:33:52.283 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:33:52.289 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:36:35.736 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:36:41.910 [main] INFO  theinternet.core.TestBase -- Stop test
+19:36:41.910 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:36:41.926 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+19:45:22.670 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:45:28.213 [main] INFO  theinternet.core.TestBase -- Stop test
+19:45:28.214 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:45:28.215 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+20:25:29.030 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+20:25:35.576 [main] INFO  theinternet.core.TestBase -- Stop test
+20:25:35.576 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:25:35.576 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+20:32:12.165 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+20:32:17.928 [main] INFO  theinternet.core.TestBase -- Stop test
+20:32:17.929 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:32:17.936 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+16:09:56.966 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+16:10:02.748 [main] INFO  theinternet.core.TestBase -- Stop test
+16:10:02.748 [main] INFO  theinternet.core.TestBase -- ==================================================
+16:10:02.754 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+16:15:59.710 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+16:16:05.529 [main] INFO  theinternet.core.TestBase -- Stop test
+16:16:05.529 [main] INFO  theinternet.core.TestBase -- ==================================================
+16:16:05.529 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+17:21:15.324 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+17:21:32.413 [main] INFO  theinternet.core.TestBase -- Stop test
+17:21:32.413 [main] INFO  theinternet.core.TestBase -- ==================================================
+17:21:32.428 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest()
+17:31:30.212 [main] INFO  theinternet.core.TestBase -- Start testListOfFramesTests() with data:{}
+17:31:34.274 [main] INFO  theinternet.core.TestBase -- Stop test
+17:31:34.276 [main] INFO  theinternet.core.TestBase -- ==================================================
+17:31:34.286 [main] INFO  theinternet.core.TestResultLogger -- Test passed: ListOfFramesTests()
+18:33:05.197 [main] INFO  theinternet.core.TestBase -- Start testFramesByNameTests() with data:{}
+18:33:13.842 [main] INFO  theinternet.core.TestBase -- Stop test
+18:33:13.843 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:33:13.850 [main] INFO  theinternet.core.TestResultLogger -- Test passed: FramesByNameTests()
+19:06:21.886 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:06:28.892 [main] INFO  theinternet.core.TestBase -- Stop test
+19:06:28.892 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:06:29.083 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754240789054.png
+19:07:20.436 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:07:27.023 [main] INFO  theinternet.core.TestBase -- Stop test
+19:07:27.025 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:07:27.203 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754240847183.png
+19:11:38.336 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:11:44.417 [main] INFO  theinternet.core.TestBase -- Stop test
+19:11:44.417 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:12:30.589 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:12:37.371 [main] INFO  theinternet.core.TestBase -- Stop test
+19:12:37.371 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:12:37.541 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754241157526.png
+19:12:37.543 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754241157526.png
+19:15:23.431 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:15:29.166 [main] INFO  theinternet.core.TestBase -- Stop test
+19:15:29.166 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:15:29.352 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754241329334.png
+19:15:29.353 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754241329334.png
+19:21:06.947 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:21:12.947 [main] INFO  theinternet.core.TestBase -- Stop test
+19:21:12.947 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:21:13.128 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754241673107.png
+19:21:13.129 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754241673107.png
+19:31:36.465 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:31:42.712 [main] INFO  theinternet.core.TestBase -- Stop test
+19:31:42.713 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:31:42.886 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754242302866.png
+19:31:42.887 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754242302866.png
+19:36:03.039 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+19:36:08.289 [main] INFO  theinternet.core.TestBase -- Stop test
+19:36:08.289 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:36:08.468 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754242568450.png
+19:36:08.469 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754242568450.png
+20:26:51.695 [main] INFO  theinternet.core.TestBase -- Start testdropDownList() with data:{}
+20:26:55.870 [main] INFO  theinternet.core.TestBase -- Stop test
+20:26:55.870 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:26:55.881 [main] INFO  theinternet.core.TestResultLogger -- Test passed: dropDownList()
+20:28:42.437 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+20:28:47.073 [main] INFO  theinternet.core.TestBase -- Stop test
+20:28:47.073 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:28:47.228 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754245727214.png
+20:28:47.229 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754245727214.png
+11:07:23.225 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:07:28.911 [main] INFO  theinternet.core.TestBase -- Stop test
+11:07:28.911 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:07:29.084 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754298449050.png
+11:07:29.085 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754298449050.png
+11:12:04.340 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:12:09.875 [main] INFO  theinternet.core.TestBase -- Stop test
+11:12:09.876 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:12:10.048 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754298730032.png
+11:12:10.049 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754298730032.png
+11:14:41.662 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:14:47.293 [main] INFO  theinternet.core.TestBase -- Stop test
+11:14:47.293 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:14:47.461 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754298887431.png
+11:14:47.462 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754298887431.png
+11:27:01.854 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:27:08.741 [main] INFO  theinternet.core.TestBase -- Stop test
+11:27:08.741 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:27:08.905 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754299628878.png
+11:27:08.906 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754299628878.png
+11:38:53.193 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:38:59.513 [main] INFO  theinternet.core.TestBase -- Stop test
+11:38:59.528 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:38:59.686 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754300339657.png
+11:38:59.686 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754300339657.png
+11:45:40.086 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+11:45:46.786 [main] INFO  theinternet.core.TestBase -- Stop test
+11:45:46.786 [main] INFO  theinternet.core.TestBase -- ==================================================
+11:45:46.950 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754300746923.png
+11:45:46.951 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754300746923.png
+20:59:44.260 [main] INFO  theinternet.core.TestBase -- Start testcheckBrokenImagesTest() with data:{}
+20:59:54.120 [main] INFO  theinternet.core.TestBase -- Stop test
+20:59:54.120 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:59:54.266 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754333994247.png
+20:59:54.266 [main] WARN  theinternet.core.TestResultLogger -- Test failed: checkBrokenImagesTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754333994247.png
+18:41:13.792 [main] INFO  theinternet.core.TestBase -- Start testuploadFileTest() with data:{}
+18:41:17.345 [main] INFO  theinternet.core.TestBase -- Stop test
+18:41:17.345 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:41:17.345 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileTest()
+18:49:39.653 [main] INFO  theinternet.core.TestBase -- Start testuploadFileTest() with data:{}
+18:49:43.801 [main] INFO  theinternet.core.TestBase -- Stop test
+18:49:43.801 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:49:43.810 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileTest()
+18:57:50.606 [main] INFO  theinternet.core.TestBase -- Start testuploadFileTest() with data:{}
+18:57:55.070 [main] INFO  theinternet.core.TestBase -- Stop test
+18:57:55.070 [main] INFO  theinternet.core.TestBase -- ==================================================
+18:57:55.075 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileTest()
+19:08:32.021 [main] INFO  theinternet.core.TestBase -- Start testuploadFileNameTest() with data:{}
+19:08:36.263 [main] INFO  theinternet.core.TestBase -- Stop test
+19:08:36.264 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:08:36.270 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileNameTest()
+19:16:30.821 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByTextAfterUploadTest() with data:{}
+19:16:35.224 [main] INFO  theinternet.core.TestBase -- Stop test
+19:16:35.224 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:16:35.245 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByTextAfterUploadTest()
+19:17:52.105 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByNameFileTest() with data:{}
+19:17:56.979 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:56.979 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:56.987 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByNameFileTest()
+19:18:08.385 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByTextAfterUploadTest() with data:{}
+19:18:12.427 [main] INFO  theinternet.core.TestBase -- Stop test
+19:18:12.427 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:18:12.437 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByTextAfterUploadTest()
+19:18:31.014 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByTextAfterUploadTest() with data:{}
+19:18:35.157 [main] INFO  theinternet.core.TestBase -- Stop test
+19:18:35.158 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:18:35.169 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByTextAfterUploadTest()
+19:18:44.510 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByNameFileTest() with data:{}
+19:18:48.742 [main] INFO  theinternet.core.TestBase -- Stop test
+19:18:48.742 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:18:48.748 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByNameFileTest()
+12:37:08.897 [main] INFO  theinternet.core.TestBase -- Start testuploadFileByTextAfterUploadTest() with data:{}
+12:37:14.090 [main] INFO  theinternet.core.TestBase -- Stop test
+12:37:14.090 [main] INFO  theinternet.core.TestBase -- ==================================================
+12:37:14.102 [main] INFO  theinternet.core.TestResultLogger -- Test passed: uploadFileByTextAfterUploadTest()
+15:16:36.628 [main] INFO  theinternet.core.TestBase -- Start testVerify to -'Ok' is displayed with data:{}
+15:16:42.113 [main] INFO  theinternet.core.TestBase -- Stop test
+15:16:42.114 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:16:42.123 [main] INFO  theinternet.core.TestResultLogger -- Test passed: Verify to -'Ok' is displayed
+15:41:17.455 [main] INFO  theinternet.core.TestBase -- Start testVerify to -'Ok' is displayed with data:{}
+15:41:26.281 [main] INFO  theinternet.core.TestBase -- Stop test
+15:41:26.281 [main] INFO  theinternet.core.TestBase -- ==================================================
+15:41:26.291 [main] INFO  theinternet.core.TestResultLogger -- Test passed: Verify to -'Ok' is displayed
+14:00:33.668 [main] INFO  theinternet.core.TestBase -- Start testnewTabPositiveTest() with data:{}
+14:00:36.555 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+14:00:38.265 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[text()='Multiple Windows']]} found
+14:00:38.265 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[text()='Multiple Windows']]
+14:00:38.531 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[text()='Multiple Windows']]
+14:00:38.543 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[@href='/windows/new']]} found
+14:00:38.543 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[@href='/windows/new']]
+14:00:38.650 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //a[@href='/windows/new']]
+14:00:38.792 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (f276824cd63deb1f22c93b595e9f9ac6)] -> xpath: //div[@class='example']/h3]} found
+14:00:38.817 [main] INFO  theinternet.core.TestBase -- Stop test
+14:00:38.817 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:00:38.824 [main] INFO  theinternet.core.TestResultLogger -- Test passed: newTabPositiveTest()
+14:55:20.286 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+14:55:22.048 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+14:55:23.725 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b60f6b3886b4549949c90990a46605c2)] -> xpath: //a[text()='Horizontal Slider']]} found
+14:55:23.725 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (b60f6b3886b4549949c90990a46605c2)] -> xpath: //a[text()='Horizontal Slider']]
+14:55:23.967 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (b60f6b3886b4549949c90990a46605c2)] -> xpath: //a[text()='Horizontal Slider']]
+14:55:24.992 [Forwarding actions on session b60f6b3886b4549949c90990a46605c2 to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b60f6b3886b4549949c90990a46605c2)] -> xpath: //input[@type='range']]} found
+14:55:25.417 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b60f6b3886b4549949c90990a46605c2)] -> id: range]} found
+14:55:25.440 [main] INFO  theinternet.core.TestBase -- Stop test
+14:55:25.440 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:55:25.445 [main] INFO  theinternet.core.TestResultLogger -- Test passed: horizontalSliderTest()
+14:55:40.919 [main] INFO  theinternet.core.TestBase -- Start testhorizontalSliderTest() with data:{}
+14:55:42.595 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+14:55:45.243 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1ebaf46c231bf7043926c5c57738c717)] -> xpath: //a[text()='Horizontal Slider']]} found
+14:55:45.244 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (1ebaf46c231bf7043926c5c57738c717)] -> xpath: //a[text()='Horizontal Slider']]
+14:55:45.487 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (1ebaf46c231bf7043926c5c57738c717)] -> xpath: //a[text()='Horizontal Slider']]
+14:55:46.508 [Forwarding actions on session 1ebaf46c231bf7043926c5c57738c717 to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1ebaf46c231bf7043926c5c57738c717)] -> xpath: //input[@type='range']]} found
+14:55:47.065 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1ebaf46c231bf7043926c5c57738c717)] -> id: range]} found
+14:55:47.113 [main] INFO  theinternet.core.TestBase -- Stop test
+14:55:47.129 [main] INFO  theinternet.core.TestBase -- ==================================================
+14:55:47.333 [main] INFO  theinternet.core.BasePage -- Скриншот сохранен в: C:\QA\The-Internet\src\screenshot\screen-1754830547306.png
+14:55:47.334 [main] WARN  theinternet.core.TestResultLogger -- Test failed: horizontalSliderTest(), screenshot: C:\QA\The-Internet\src\screenshot\screen-1754830547306.png
+15:06:23.615 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+15:06:25.160 [main] INFO  theinternet.core.TestBase -- Start test dragBoxToBoxTest() with data:{}
+15:06:25.289 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> link text: Drag and Drop]} found
+15:06:25.289 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> link text: Drag and Drop]
+15:06:25.535 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> link text: Drag and Drop]
+15:06:26.563 [Forwarding actions on session 3e67bd5f446e7d70a5a2667d7ce3c74d to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> id: column-a]} found
+15:06:26.579 [Forwarding actions on session 3e67bd5f446e7d70a5a2667d7ce3c74d to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> id: column-b]} found
+15:06:26.855 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> id: column-b]} found
+15:06:26.874 [main] INFO  theinternet.core.TestBase -- Stop test
+15:06:26.874 [main] INFO  theinternet.core.TestBase -- ==================================================

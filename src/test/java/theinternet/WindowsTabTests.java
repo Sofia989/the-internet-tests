@@ -21,5 +21,4 @@ public class WindowsTabTests extends TestBase {
                 .verifyTabsByText("New Window");
 
     }
-
 }

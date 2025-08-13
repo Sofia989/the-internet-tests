@@ -23,8 +23,6 @@ public class DragAndDropTests extends TestBase {
     public void dragBoxToBoxTest() {
         dragAndDrop.actionMoveBox()
                 .verifyisBoxANowAtBoxBPosition("A");
-
-
     }
 
     @Test
@@ -33,8 +31,6 @@ public class DragAndDropTests extends TestBase {
                 .verifyisBoxANowAtBoxBPositionWithSoftly();
 
     }
-
-
 }
 
 

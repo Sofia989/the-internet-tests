@@ -11,13 +11,15 @@ public class FramesNestedTests extends TestBase {
 
 
     FramesNestedPages framesNested;
+
     @BeforeEach
-    public void precondition(){
-        framesNested=new FramesNestedPages(driver);
+    public void precondition() {
+        framesNested = new FramesNestedPages(driver);
         new HomePage(driver).selectNestedFrames();
     }
+
     @Test
-    public void FramesByNameTests(){
+    public void FramesByNameTests() {
 
         framesNested.switchToFrameTop("frame-top")
                 .switchToFrameLeft("frame-left")
@@ -32,11 +34,12 @@ public class FramesNestedTests extends TestBase {
                 .switchToFrameBottom("frame-bottom")
                 .verifyFrameText("BOTTOM");
     }
+
     @Test
-    public void ListOfFramesTests(){
+    public void ListOfFramesTests() {
         int frames = new FramesNestedPages(driver).getNumberOfFrames();
         System.out.println("Количество фреймов на странице: " + frames);
     }
 
-    }
+}
 

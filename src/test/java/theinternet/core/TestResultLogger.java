@@ -12,7 +12,6 @@ public class TestResultLogger implements TestWatcher {
     public void testSuccessful(ExtensionContext context) {
         logger.info("Test passed: " + context.getDisplayName());
     }
-
     @Override
     public void testFailed(ExtensionContext context, Throwable cause) {
         Object instance = context.getRequiredTestInstance();

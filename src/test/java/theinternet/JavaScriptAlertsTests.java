@@ -2,6 +2,7 @@ package theinternet;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import theinternet.core.TestBase;
 import theinternet.pages.javaScriptAlerts.AlertsPage;
@@ -19,9 +20,8 @@ public class JavaScriptAlertsTests extends TestBase {
         alertPage = new AlertsPage(driver);
 
     }
-
-
     @Test
+    @Tag("smoke")
     public void verifyJSAlertTextAndAccept() {
         alertPage.selectAlert()
                 .verifyAlertText("I am a JS Alert")
@@ -31,6 +31,7 @@ public class JavaScriptAlertsTests extends TestBase {
     }
 
     @Test
+    @Tag("smoke")
     @DisplayName("Verify to -'Ok' is displayed")
     public void alertWithSelectResultTest() {
         alertPage.selectAlert()
@@ -41,9 +42,8 @@ public class JavaScriptAlertsTests extends TestBase {
     }
 
     @Test
+    @Tag("smoke")
     public void sendMessageToAlertTest() {
-//        alertPage.selectAlert()
-//                .acceptAlert();
         alertPage.sendMessageToAlert("Welcome!")
                 .verifyMessage("Welcome");
 

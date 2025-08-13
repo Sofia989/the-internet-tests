@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 
 import static theinternet.core.ApplicationManager.stopDriver;
 
-//@ExtendWith(TestResultLogger.class)
 public class TestBase {
 
     protected ApplicationManager app = new ApplicationManager(System.getProperty("browser", "chrome"));
@@ -19,16 +18,6 @@ public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     public boolean testPassed = true;
-//
-//    @BeforeEach
-//    void startTest(TestInfo info) {
-//        logger.info("Start test {}", info.getDisplayName());
-//    }
-//
-//    @AfterEach
-//    void stopTest(TestInfo info) {
-//        logger.info("Stop test {}", info.getDisplayName());
-//    }
 
 
     @BeforeEach
