@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: theinternet.BrokenImagesTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.190 s <<< FAILURE! -- in theinternet.BrokenImagesTests
+theinternet.BrokenImagesTests.checkBrokenImagesTest -- Time elapsed: 7.659 s <<< FAILURE!
+org.assertj.core.error.AssertJMultipleFailuresError: 
+
+Multiple Failures (4 failures)
+-- failure 1 --https://the-internet.herokuapp.com/asdf.jpg-Not Foundis a broken link
+at BasePage.verifyLinks(BasePage.java:105)
+-- failure 2 --Broken image is https://the-internet.herokuapp.com/asdf.jpg
+at ImagesPage.checkBrokenImages(ImagesPage.java:46)
+-- failure 3 --https://the-internet.herokuapp.com/hjkl.jpg-Not Foundis a broken link
+at BasePage.verifyLinks(BasePage.java:105)
+-- failure 4 --Broken image is https://the-internet.herokuapp.com/hjkl.jpg
+at ImagesPage.checkBrokenImages(ImagesPage.java:46)
+	at theinternet.pages.links.ImagesPage.checkBrokenImages(ImagesPage.java:54)
+	at theinternet.BrokenImagesTests.checkBrokenImagesTest(BrokenImagesTests.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

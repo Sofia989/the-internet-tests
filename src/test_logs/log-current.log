@@ -493,3 +493,170 @@
 15:06:26.855 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (3e67bd5f446e7d70a5a2667d7ce3c74d)] -> id: column-b]} found
 15:06:26.874 [main] INFO  theinternet.core.TestBase -- Stop test
 15:06:26.874 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:16:58.113 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:16:59.824 [main] INFO  theinternet.core.TestBase -- Start test checkBrokenImagesTest() with data:{}
+19:16:59.947 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (804a83ff73b8955d695c6f7c0f469f38)] -> link text: Broken Images]} found
+19:16:59.947 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (804a83ff73b8955d695c6f7c0f469f38)] -> link text: Broken Images]
+19:17:00.314 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (804a83ff73b8955d695c6f7c0f469f38)] -> link text: Broken Images]
+19:17:00.337 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:00.350 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:00.396 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:00.419 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:01.676 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:01.692 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.082 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.082 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.488 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.504 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.895 [main] INFO  theinternet.utils.MyListener -- 4number of Elements found
+19:17:02.910 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:02.910 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:03.954 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:05.562 [main] INFO  theinternet.core.TestBase -- Start test dragBoxToBoxTest() with data:{}
+19:17:05.596 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> link text: Drag and Drop]} found
+19:17:05.596 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> link text: Drag and Drop]
+19:17:05.913 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> link text: Drag and Drop]
+19:17:06.939 [Forwarding actions on session b87b0d09c62298741ad46eaff369b110 to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> id: column-a]} found
+19:17:06.957 [Forwarding actions on session b87b0d09c62298741ad46eaff369b110 to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> id: column-b]} found
+19:17:07.229 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (b87b0d09c62298741ad46eaff369b110)] -> id: column-b]} found
+19:17:07.248 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:07.249 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:08.079 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:09.731 [main] INFO  theinternet.core.TestBase -- Start test dragBoxToBoxTestWithSoftly() with data:{}
+19:17:09.763 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> link text: Drag and Drop]} found
+19:17:09.763 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> link text: Drag and Drop]
+19:17:10.025 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> link text: Drag and Drop]
+19:17:11.027 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-a]} found
+19:17:11.059 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-a]} found
+19:17:11.074 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-b]} found
+19:17:11.106 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-b]} found
+19:17:11.117 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-a]} found
+19:17:11.149 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (99df42b80e1d0f194c21c3d093b60640)] -> id: column-b]} found
+19:17:11.164 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:11.164 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:12.158 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:14.195 [main] INFO  theinternet.core.TestBase -- Start test FramesByNameTests() with data:{}
+19:17:14.220 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //a[text()='Nested Frames']]} found
+19:17:14.221 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //a[text()='Nested Frames']]
+19:17:14.729 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //a[text()='Nested Frames']]
+19:17:14.754 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //frame[@name='frame-top']]} found
+19:17:14.791 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //frame[@name='frame-left']]} found
+19:17:14.824 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:14.850 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:14.873 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //frame[@name='frame-middle']]} found
+19:17:14.902 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:14.921 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:14.946 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: //frame[@name='frame-right']]} found
+19:17:14.966 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:14.992 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:15.013 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath:  //frame[@name='frame-bottom']]} found
+19:17:15.029 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:15.044 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (82792b3f1160e6375f37c35f7865cbca)] -> xpath: /html/body]} found
+19:17:15.060 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:15.060 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:15.910 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:17.517 [main] INFO  theinternet.core.TestBase -- Start test ListOfFramesTests() with data:{}
+19:17:17.551 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (c80e6e43a6c4053392b0616af0f631b1)] -> xpath: //a[text()='Nested Frames']]} found
+19:17:17.552 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (c80e6e43a6c4053392b0616af0f631b1)] -> xpath: //a[text()='Nested Frames']]
+19:17:18.118 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (c80e6e43a6c4053392b0616af0f631b1)] -> xpath: //a[text()='Nested Frames']]
+19:17:18.127 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:18.128 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:19.090 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:20.869 [main] INFO  theinternet.core.TestBase -- Start test Verify to -'Ok' is displayed with data:{}
+19:17:20.902 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //a[text()='JavaScript Alerts']]} found
+19:17:20.902 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:21.172 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:21.195 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: (//div[@class='example']//button)[1]]} found
+19:17:21.195 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: (//div[@class='example']//button)[1]]
+19:17:21.267 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: (//div[@class='example']//button)[1]]
+19:17:21.283 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //button[@onclick='jsConfirm()']]} found
+19:17:21.283 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //button[@onclick='jsConfirm()']]
+19:17:21.346 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> xpath: //button[@onclick='jsConfirm()']]
+19:17:21.365 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (4e48147fa81824fcea295ff966f176ea)] -> id: result]} found
+19:17:21.380 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:21.380 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:22.410 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:24.230 [main] INFO  theinternet.core.TestBase -- Start test verifyJSAlertTextAndAccept() with data:{}
+19:17:24.256 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: //a[text()='JavaScript Alerts']]} found
+19:17:24.262 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:24.552 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:24.562 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: (//div[@class='example']//button)[1]]} found
+19:17:24.562 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: (//div[@class='example']//button)[1]]
+19:17:24.637 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> xpath: (//div[@class='example']//button)[1]]
+19:17:24.690 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (72e4efb1d75646d4e8ad84470449aa06)] -> id: result]} found
+19:17:24.695 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:24.695 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:25.526 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:27.147 [main] INFO  theinternet.core.TestBase -- Start test sendMessageToAlertTest() with data:{}
+19:17:27.176 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //a[text()='JavaScript Alerts']]} found
+19:17:27.177 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:27.471 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //a[text()='JavaScript Alerts']]
+19:17:27.489 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //button[@onclick='jsPrompt()']]} found
+19:17:27.489 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //button[@onclick='jsPrompt()']]
+19:17:27.556 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> xpath: //button[@onclick='jsPrompt()']]
+19:17:27.582 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (d6ef76f0f941d629b7f2daec65798776)] -> id: result]} found
+19:17:27.603 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:27.603 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:28.596 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:30.822 [main] INFO  theinternet.core.TestBase -- Start test dropDownList() with data:{}
+19:17:30.847 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> xpath: //a[text()='Dropdown']]} found
+19:17:30.848 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> xpath: //a[text()='Dropdown']]
+19:17:31.126 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> xpath: //a[text()='Dropdown']]
+19:17:31.145 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.155 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.171 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.202 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.234 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]] -> xpath: .//option[normalize-space(.) = "Option 2"]]
+19:17:31.265 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]] -> xpath: .//option[normalize-space(.) = "Option 2"]]
+19:17:31.265 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.281 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.296 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.358 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (812a685834a880d462a12b7a3373f2a5)] -> id: dropdown]} found
+19:17:31.367 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:31.367 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:32.332 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:34.575 [main] INFO  theinternet.core.TestBase -- Start test horizontalSliderTest() with data:{}
+19:17:34.597 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (9a1470bd2f2b8253baf563d01786cfce)] -> xpath: //a[text()='Horizontal Slider']]} found
+19:17:34.597 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (9a1470bd2f2b8253baf563d01786cfce)] -> xpath: //a[text()='Horizontal Slider']]
+19:17:34.888 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (9a1470bd2f2b8253baf563d01786cfce)] -> xpath: //a[text()='Horizontal Slider']]
+19:17:35.891 [Forwarding actions on session 9a1470bd2f2b8253baf563d01786cfce to remote] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (9a1470bd2f2b8253baf563d01786cfce)] -> xpath: //input[@type='range']]} found
+19:17:36.318 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (9a1470bd2f2b8253baf563d01786cfce)] -> id: range]} found
+19:17:36.334 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:36.334 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:37.488 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:39.395 [main] INFO  theinternet.core.TestBase -- Start test uploadFileByTextAfterUploadTest() with data:{}
+19:17:39.416 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> css selector: a[href='/upload']]} found
+19:17:39.416 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> css selector: a[href='/upload']]
+19:17:39.803 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> css selector: a[href='/upload']]
+19:17:39.812 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> id: file-upload]} found
+19:17:39.844 [main] INFO  theinternet.utils.MyListener -- We sendKeys  to element [[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> id: file-upload]
+19:17:39.870 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> id: file-submit]} found
+19:17:39.870 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> id: file-submit]
+19:17:40.351 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> id: file-submit]
+19:17:40.363 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (e183747ae3bcee597fecb309ab553b25)] -> css selector: h3]} found
+19:17:40.386 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:40.387 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:41.202 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:43.240 [main] INFO  theinternet.core.TestBase -- Start test uploadFileByNameFileTest() with data:{}
+19:17:43.267 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> css selector: a[href='/upload']]} found
+19:17:43.267 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> css selector: a[href='/upload']]
+19:17:43.641 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> css selector: a[href='/upload']]
+19:17:43.646 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: file-upload]} found
+19:17:43.678 [main] INFO  theinternet.utils.MyListener -- We sendKeys  to element [[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: file-upload]
+19:17:43.703 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: file-submit]} found
+19:17:43.703 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: file-submit]
+19:17:44.186 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: file-submit]
+19:17:44.198 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (5f8cd16d1db42d4953a42fa77c8c3d5d)] -> id: uploaded-files]} found
+19:17:44.223 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:44.224 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:17:45.189 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:17:46.763 [main] INFO  theinternet.core.TestBase -- Start test newTabPositiveTest() with data:{}
+19:17:46.787 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[text()='Multiple Windows']]} found
+19:17:46.787 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[text()='Multiple Windows']]
+19:17:47.072 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[text()='Multiple Windows']]
+19:17:47.100 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[@href='/windows/new']]} found
+19:17:47.100 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[@href='/windows/new']]
+19:17:47.212 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //a[@href='/windows/new']]
+19:17:47.362 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //div[@class='example']/h3]} found
+19:17:47.393 [main] INFO  theinternet.core.TestBase -- Stop test
+19:17:47.393 [main] INFO  theinternet.core.TestBase -- ==================================================
