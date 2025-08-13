@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import static theinternet.core.ApplicationManager.stopDriver;
 
-@ExtendWith(TestResultLogger.class)
+//@ExtendWith(TestResultLogger.class)
 public class TestBase {
 
     protected ApplicationManager app = new ApplicationManager(System.getProperty("browser", "chrome"));
@@ -32,14 +32,9 @@ public class TestBase {
 
 
     @BeforeEach
-    public void init() {
+    public void setUp(TestInfo testInfo) {
         driver = app.startTest();
-        // logger.info("Start test {} with data:{}", method.getName(), Arrays.asList(p));
-    }
-
-    @BeforeEach
-    public void startTest(TestInfo testInfo) {
-        logger.info("Start test{} with data:{}", testInfo.getDisplayName());
+        logger.info("Start test {} with data:{}", testInfo.getDisplayName());
     }
 
     @AfterEach
