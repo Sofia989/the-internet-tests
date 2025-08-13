@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class ApplicationManager {
     String browser;
-    protected static WebDriver driver;
+    public static WebDriver driver;
 
     public ApplicationManager(String browser) {
         this.browser=browser;
