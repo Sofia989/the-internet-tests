@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import theinternet.core.BasePage;
 import theinternet.pages.Frames.FramesNestedPages;
+import theinternet.pages.LoginPage;
 import theinternet.pages.NewWindow.NewWindowPage;
 import theinternet.pages.Select.SelectMenuPage;
 import theinternet.pages.UploadFilePage;
@@ -19,8 +20,9 @@ public class HomePage extends BasePage {
     }
 
 
-    @FindBy (xpath = "//a[text()='JavaScript Alerts']")
+    @FindBy(xpath = "//a[text()='JavaScript Alerts']")
     WebElement alertsLink;
+
     public AlertsPage selectJavaScriptAlertsLink() {
         click(alertsLink);
 
@@ -29,6 +31,7 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[text()='Multiple Windows']")
     WebElement newWindowsLink;
+
     public NewWindowPage selectMultipleWindowsLink() {
         click(newWindowsLink);
 
@@ -39,6 +42,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//a[text()='Dropdown']")
 
     WebElement dropDown;
+
     public SelectMenuPage selectDropdownLink() {
         click(dropDown);
 
@@ -48,6 +52,7 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[text()='Nested Frames']")
     WebElement framesLink;
+
     public FramesNestedPages selectNestedFrames() {
         click(framesLink);
         return new FramesNestedPages(driver);
@@ -57,6 +62,7 @@ public class HomePage extends BasePage {
 
     @FindBy(linkText = "Drag and Drop")
     WebElement dragAndDropLink;
+
     public DragAndDropPage selectDragAndDrop() {
         click(dragAndDropLink);
 
@@ -72,7 +78,7 @@ public class HomePage extends BasePage {
     }
 
 
-    @FindBy(linkText="Broken Images")
+    @FindBy(linkText = "Broken Images")
     WebElement brokenImages;
 
     public ImagesPage selectBrokenImagesLink() {
@@ -80,11 +86,30 @@ public class HomePage extends BasePage {
         return new ImagesPage(driver);
     }
 
-    @FindBy(css="a[href='/upload']")
+    @FindBy(css = "a[href='/upload']")
     WebElement uploadLink;
+
     public UploadFilePage selectUploadFile() {
         click(uploadLink);
         return new UploadFilePage(driver);
     }
+
+    public void openURL() {
+        driver.get("https://the-internet.herokuapp.com");
+    }
+
+
+    @FindBy(xpath = "//a[text()='Form Authentication']")
+    //@FindBy(css="a[href='/login']")
+    //@FindBy(xpath = "//a[normalize-space()='Form Authentication']")
+
+   // @FindBy(linkText = "Form Authentication")
+    WebElement formAuthPage;
+
+    public LoginPage clickOnauthenticationLink() {
+        click(formAuthPage);
+        return new LoginPage(driver);
+    }
+
 }
 

@@ -3,6 +3,7 @@ package theinternet.core;
 import com.google.common.io.Files;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -112,6 +113,12 @@ public class BasePage {
         }
         //softly.assertAll();
     }
+
+//    public void launchBrowser() {
+//        driver=new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//    }
 }
 
 

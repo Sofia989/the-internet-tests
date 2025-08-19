@@ -14,7 +14,7 @@ import static theinternet.core.ApplicationManager.stopDriver;
 public class TestBase {
 
     protected ApplicationManager app = new ApplicationManager(System.getProperty("browser", "chrome"));
-    protected static WebDriver driver;
+    public static WebDriver driver;
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     public boolean testPassed = true;

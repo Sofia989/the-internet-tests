@@ -660,3 +660,119 @@
 19:17:47.362 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (8388cf8eb804ca0cb91444f8f1894df3)] -> xpath: //div[@class='example']/h3]} found
 19:17:47.393 [main] INFO  theinternet.core.TestBase -- Stop test
 19:17:47.393 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:41:17.990 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+20:41:19.557 [main] INFO  theinternet.core.TestBase -- Start test Verify to -'Ok' is displayed with data:{}
+20:41:19.658 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //a[text()='JavaScript Alerts']]} found
+20:41:19.658 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:19.927 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:19.949 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: (//div[@class='example']//button)[1]]} found
+20:41:19.949 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: (//div[@class='example']//button)[1]]
+20:41:20.013 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: (//div[@class='example']//button)[1]]
+20:41:20.044 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //button[@onclick='jsConfirm()']]} found
+20:41:20.044 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //button[@onclick='jsConfirm()']]
+20:41:20.106 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> xpath: //button[@onclick='jsConfirm()']]
+20:41:20.142 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (964abbfccb435774f21ebb516aad1ff9)] -> id: result]} found
+20:41:20.175 [main] INFO  theinternet.core.TestBase -- Stop test
+20:41:20.175 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:41:21.045 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+20:41:22.510 [main] INFO  theinternet.core.TestBase -- Start test verifyJSAlertTextAndAccept() with data:{}
+20:41:22.541 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: //a[text()='JavaScript Alerts']]} found
+20:41:22.542 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:22.796 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:22.807 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: (//div[@class='example']//button)[1]]} found
+20:41:22.807 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: (//div[@class='example']//button)[1]]
+20:41:22.874 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> xpath: (//div[@class='example']//button)[1]]
+20:41:22.924 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (1d7b4caa0494766ec8c78d678cb3fb95)] -> id: result]} found
+20:41:22.942 [main] INFO  theinternet.core.TestBase -- Stop test
+20:41:22.942 [main] INFO  theinternet.core.TestBase -- ==================================================
+20:41:23.742 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+20:41:25.198 [main] INFO  theinternet.core.TestBase -- Start test sendMessageToAlertTest() with data:{}
+20:41:25.231 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //a[text()='JavaScript Alerts']]} found
+20:41:25.232 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:25.487 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //a[text()='JavaScript Alerts']]
+20:41:25.508 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //button[@onclick='jsPrompt()']]} found
+20:41:25.508 [main] INFO  theinternet.utils.MyListener -- We have to click on element [[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //button[@onclick='jsPrompt()']]
+20:41:25.578 [main] INFO  theinternet.utils.MyListener -- We clicked on element[[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> xpath: //button[@onclick='jsPrompt()']]
+20:41:25.620 [main] INFO  theinternet.utils.MyListener -- Element Decorated {[[ChromeDriver: chrome on windows (66309c4a4099b5de9329c12d12b7366e)] -> id: result]} found
+20:41:25.624 [main] INFO  theinternet.core.TestBase -- Stop test
+20:41:25.624 [main] INFO  theinternet.core.TestBase -- ==================================================
+19:51:12.255 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:51:36.747 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- ****************************
+19:51:36.747 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- =======================================
+19:51:36.747 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (0ef0cf25d71bff17ca558dde971ac56d)
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- ==========================================
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- Exception is null
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- ==========================================
+19:51:36.747 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1789.png
+19:53:02.294 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+19:53:25.578 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- ****************************
+19:53:25.578 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- =======================================
+19:53:25.578 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (7949120100430d15f499f523a0efcf36)
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- ==========================================
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- Exception is null
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- ==========================================
+19:53:25.578 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1183.png
+20:02:31.885 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+20:02:59.158 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- ****************************
+20:02:59.158 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- =======================================
+20:02:59.158 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (dd4012d0a17b010ee3559a43664513e8)
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- ==========================================
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- Exception is null
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- ==========================================
+20:02:59.158 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1706.png
+20:05:49.806 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+20:06:10.819 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- ****************************
+20:06:10.819 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- =======================================
+20:06:10.819 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (884fbf4a5e0f83a43ed6b04621f1a3c0)
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- ==========================================
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- Exception is null
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- ==========================================
+20:06:10.819 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1398.png
+08:57:15.605 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+08:57:39.605 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+08:57:39.605 [main] INFO  theinternet.utils.MyListener -- ****************************
+08:57:39.605 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+08:57:39.621 [main] INFO  theinternet.utils.MyListener -- =======================================
+08:57:39.621 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (a26a06f37d2592299cf17e7cff9bb7ef)
+08:57:39.621 [main] INFO  theinternet.utils.MyListener -- ==========================================
+08:57:39.621 [main] INFO  theinternet.utils.MyListener -- Exception is null
+08:57:39.621 [main] INFO  theinternet.utils.MyListener -- ==========================================
+08:57:39.621 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1889.png
+09:03:51.195 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+09:04:08.598 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- ****************************
+09:04:08.598 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- =======================================
+09:04:08.598 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (c7e262572762364876be0977bc0c08b6)
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- Exception is null
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:04:08.598 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1632.png
+09:09:41.548 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+09:10:01.960 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+09:10:01.960 [main] INFO  theinternet.utils.MyListener -- ****************************
+09:10:01.960 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+09:10:01.960 [main] INFO  theinternet.utils.MyListener -- =======================================
+09:10:01.960 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (5ece52b4a6baa61ac30d08668403e313)
+09:10:01.960 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:10:01.976 [main] INFO  theinternet.utils.MyListener -- Exception is null
+09:10:01.976 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:10:01.976 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1920.png
+09:18:58.598 [main] INFO  theinternet.utils.MyListener -- Open url - https://the-internet.herokuapp.com
+09:19:17.446 [main] ERROR theinternet.utils.MyListener -- Something went wrong!!!
+09:19:17.446 [main] INFO  theinternet.utils.MyListener -- ****************************
+09:19:17.462 [main] ERROR theinternet.utils.MyListener -- MethodfindElement failed
+09:19:17.462 [main] INFO  theinternet.utils.MyListener -- =======================================
+09:19:17.462 [main] ERROR theinternet.utils.MyListener -- Target isChromeDriver: chrome on windows (7a361b374832156c4a1dc769521a9d05)
+09:19:17.462 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:19:17.462 [main] INFO  theinternet.utils.MyListener -- Exception is null
+09:19:17.462 [main] INFO  theinternet.utils.MyListener -- ==========================================
+09:19:17.462 [main] INFO  theinternet.utils.MyListener -- Screen with error-->screenshots/screen_1704.png
